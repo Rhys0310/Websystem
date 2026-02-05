@@ -1,0 +1,51 @@
+* {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #1d1d1f;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 80px 20px;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #86868b;
+  margin-bottom: 60px;
+}
+
+.color-title {
+  font-weight: normal;
+  font-size: 32px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#red { color: #ff3b30; }
+#blue { color: #007aff; }
+#orange { color: #ff9500; }
+#green { color: #34c759; }
+#yellow { color: #ffcc00; }
+
+img {
+  display: block;
+  margin: 0 auto 60px auto;
+  width: 200px !important;
+  height: 200px !important;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 40px; 
+}
